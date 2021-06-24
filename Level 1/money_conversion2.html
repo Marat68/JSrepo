@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money conversion</title>
+</head>
+<body>
+    <script>
+        var rub = prompt("Введите количество рублей");
+        var usd = 72;
+        var eur = 85;
+
+        var rubToEur = rub/eur;
+        var rubToUsd = rub/usd;
+
+        alert (
+            "Сумма в долларах: " + rubToUsd.toFixed(2) +
+            "\n Сумма в евро: " + rubToEur.toFixed(2)
+        );
+
+    </script>
+</body>
+</html>
